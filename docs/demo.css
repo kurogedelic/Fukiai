@@ -9,6 +9,7 @@ ul,
 backquote,
 article,
 aside,
+
 details,
 figcaption,
 figure,
@@ -198,7 +199,6 @@ body {
     transition-property: opacity, visibility; }
   /* line 212, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
   .glyph .name {
-    background-color: #f7f7f7;
     display: inline-block;
     font-size: .8em;
     text-align: center;
