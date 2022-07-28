@@ -1,15 +1,13 @@
-/* line 1, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
 
-/* line 6, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 div,
 ul,
 backquote,
 article,
 aside,
-
 details,
 figcaption,
 figure,
@@ -20,231 +18,281 @@ menu,
 nav,
 section,
 summary {
-  display: block;
-  display-margin: 0;
-  display-padding: 0; }
+    display: block;
+    display-margin: 0;
+    display-padding: 0
+}
 
-/* line 26, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 input,
 button,
 textarea,
 select {
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  display: block;
-  overflow: visible;
-  margin: 0;
-  padding: 0;
-  vertical-align: inherit;
-  color: inherit;
-  border: 0;
-  background: none;
-  font: inherit;
-  line-height: inherit; }
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    display: block;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    vertical-align: inherit;
+    color: inherit;
+    border: 0;
+    background: none;
+    font: inherit;
+    line-height: inherit
+}
 
-/* line 45, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace; }
+    font-family: monospace, monospace
+}
 
-/* line 52, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 b,
 strong {
-  font-weight: bold; }
+    font-weight: bold
+}
 
-/* line 57, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 small {
-  font-size: .5em; }
+    font-size: .5em
+}
 
-/* line 61, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 img {
-  border-style: none; }
+    border-style: none
+}
 
-/* line 65, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 ul {
-  list-style: none; }
+    list-style: none
+}
 
-/* line 69, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 svg:not(:root) {
-  overflow: hidden; }
+    overflow: hidden
+}
 
-/* line 73, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 ::-moz-selection {
-  background-color: #b3d4fc;
-  text-shadow: none; }
+    background-color: #b3d4fc;
+    text-shadow: none
+}
 
-/* line 78, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 ::selection {
-  background-color: #b3d4fc;
-  text-shadow: none; }
+    background-color: #b3d4fc;
+    text-shadow: none
+}
 
-/* line 83, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 [hidden] {
-  display: none;
-  opacity: 0; }
+    display: none;
+    opacity: 0
+}
 
-/* line 88, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 html {
-  overflow-y: scroll;
-  width: 100%;
-  height: 100%;
-  word-wrap: break-word; }
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    word-wrap: break-word
+}
 
-/* line 95, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.3;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  letter-spacing: -.03em;
-  color: #000; }
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -.03em;
+    color: #000
+}
 
-/* line 112, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin: 2rem 0 1rem 0;
-  font-weight: 500; }
+    margin: 2rem 0 1rem 0;
+    font-weight: 500
+}
 
-/* line 122, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 h1 {
-  font-size: 3em; }
+    font-size: 3em
+}
 
-/* line 126, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 h2 {
-  font-size: 2em; }
+    font-size: 2em
+}
 
-/* line 130, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 h3 {
-  font-size: 1.5em; }
+    font-size: 1.5em
+}
 
-/* line 134, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 h4 {
-  font-size: 1.5em; }
+    font-size: 1.5em
+}
 
-/* line 138, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 body {
-  text-align: center;
-  background: #f5f5f5; }
 
-/* line 144, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
+    text-align: center;
+    background: #f5f5f5;
+}
+
 .examples {
-  justify-content: center; }
+    justify-content: center;
+}
 
-/* line 148, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 .example {
-  background: #fff;
-  padding: 1rem; }
+    background: #fff;
+    padding: 1rem;
+}
 
-/* line 153, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
 .glyphs {
-  margin: auto;
-  text-align: left;
-  max-width: 55rem; }
+    margin: auto;
+    text-align: left;
+    max-width: 55rem;
 
-/* line 160, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
+}
+
 .glyph {
-  width: 6.83333rem;
-  height: AUTO;
-  display: inline-block;
-  margin: 1rem;
-  background: #fff;
-  border-radius: .3em;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 0 0.3em 0.5em -0.3em rgba(0, 0, 0, 0.3); }
-  /* line 171, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-  .glyph .preview {
-    width: 6.83333rem;
-    height: 6.83333rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    font-size: 3rem; }
-  /* line 183, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-  .glyph .info {
-    border-radius: .3em;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.5);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-backdrop-filter: blur(0.3rem);
-    backdrop-filter: blur(0.3rem);
-    transition: .3s ease;
-    transition-property: opacity, visibility; }
-  /* line 212, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-  .glyph .name {
+    width: ((53rem / 6) - 2rem);
+    height: AUTO;
     display: inline-block;
-    font-size: .8em;
-    text-align: center;
-    padding: .5em;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 100%; }
-  /* line 227, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-  .glyph .classname,
-  .glyph .attrname {
-    font-family: "SF Mono", Monaco, monospace;
-    font-size: .8em;
-    display: block;
-    margin: 0;
+    margin: 1rem;
+    background: #fff;
     border-radius: .3em;
-    text-align: center;
-    padding: .5em; }
-  /* line 247, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-  .glyph:hover {
-    cursor: text; }
-    /* line 252, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-    .glyph:hover .info {
-      visibility: visible;
-      opacity: 1; }
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 .3em .5em -.3em rgba(black, .3);
 
-/* line 267, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
+    .preview {
+        width: ((53rem / 6) - 2rem);
+        height: ((53rem / 6) - 2rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+
+    .info {
+        border-radius: .3em;
+        position: absolute;
+        background: rgba(#fff, .5);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        top: 0;
+        bottom: 0;
+
+        left: 0;
+        right: 0;
+
+        z-index: 1000;
+
+
+        opacity: 0;
+        visibility: hidden;
+
+        -webkit-backdrop-filter: blur(.3rem);
+        backdrop-filter: blur(.3rem);
+
+        transition: .3s ease;
+        transition-property: opacity,
+            visibility;
+
+    }
+
+    .name {
+        background-color: #f7f7f7;
+        display: inline-block;
+        
+font-size: .8em;
+        text-align:center;
+        padding: .5em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+
+        width: 100%;
+    }
+
+    .classname,
+    .attrname {
+        font-family: "SF Mono", Monaco, monospace;
+        font-size: .8em;
+        display: block;
+        margin: 0;
+        border-radius: .3em;
+
+        text-align: center;
+
+        padding: .5em;
+
+
+
+    }
+
+    .classname {}
+
+    .attrname {}
+
+    &:hover {
+        cursor: text;
+
+        .name {}
+
+        .info {
+
+
+            visibility: visible;
+            opacity: 1;
+
+
+
+        }
+    }
+}
+
+
+
+
 .hero {
-  background-color: #1d85fc;
-  color: #fff;
-  padding: 3rem 1rem; }
+    background-color: #1d85fc;
+    color: #fff;
+    padding: 3rem 1rem;
+}
 
-/* line 274, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-body.--invert {
-  background-color: #222;
-  color: #f5f5f5; }
-  /* line 280, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-  body.--invert .glyph {
-    background: #000; }
-    /* line 288, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-    body.--invert .glyph .classname:hover,
-    body.--invert .glyph .attrname:hover {
-      color: #fc851d; }
-    /* line 292, /Users/kjl-imac/Library/Mobile Documents/com~apple~CloudDocs/Fukiai/demo/demo.scss */
-    body.--invert .glyph .classname:active,
-    body.--invert .glyph .attrname:active {
-      background-color: rgba(252, 133, 29, 0.2); }
+body {
+    &.--invert {
+        background-color: #222;
+        color: #f5f5f5;
 
-/*# sourceMappingURL=demo.css.map */
+
+
+        .glyph {
+
+            background: #000;
+
+            .classname,
+            .attrname {
+
+
+                &:hover {
+                    color: #fc851d;
+                }
+
+                &:active {
+                    background-color: rgba(#fc851d, .2)
+                }
+            }
+        }
+    }
+}
